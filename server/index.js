@@ -13,7 +13,7 @@ app.use(cors());
 const connect = async () => {
   try {
     await mongoose.connect(
-      "mongodb+srv://XXXXX:XXXXX@cluster0.srhks.mongodb.net/NewDatabase?retryWrites=true&w=majority"
+      "mongodb+srv://XXXXX:XXXXX@XXXXX.srhks.mongodb.net/XXXX?retryWrites=true&w=majority"
     );
     console.log("MongoDB is connected");
   } catch (err) {
